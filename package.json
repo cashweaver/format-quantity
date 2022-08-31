@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "name": "format-quantity",
-  "author": "Jake Boone <jakeboone02@gmail.com>",
+  "version": "1.0.0",
+  "name": "format-quantity-with-sixteenths",
+  "author": "Cash Weaver <cashbweaver@gmail.com>",
   "description": "Number formatter for imperial measurements with support for vulgar fractions",
   "files": [
     "dist"
@@ -22,12 +22,12 @@
     "imperial"
   ],
   "bugs": {
-    "url": "https://github.com/jakeboone02/format-quantity/issues"
+    "url": "https://github.com/cashweaver/format-quantity/issues"
   },
-  "homepage": "https://github.com/jakeboone02/format-quantity",
+  "homepage": "https://github.com/cashweaver/format-quantity",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakeboone02/format-quantity"
+    "url": "https://github.com/cashweaver/format-quantity"
   },
   "scripts": {
     "start": "vite",
@@ -49,5 +49,8 @@
     "prettier": "^2.6.0",
     "typescript": "^4.1.5",
     "vite": "^2.8.6"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
   }
 }
